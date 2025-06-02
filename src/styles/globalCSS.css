@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    color: orange;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffcc00;
+    border: 2px solid orange;
+    padding-bottom: 10px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+button {
+    background: none;
+    border: 1px solid orange;
+    color: orange;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: orange;
+    color: black;
+}
+
+.element-list {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.users,
+.products,
+.entities,
+.associations,
+.people {
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.element-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.element-item:hover {
+    color: blue;
+}
+
+.element-title {
+    display: flex;
+    width: 150%;
+    height: 100px;
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.element-img {
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.element-view {
+    width: 400px;
+    height: 400px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.view-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.form-container {
+    background-color: #1c1c1c;
+    color: orange;
+    padding: 3rem;
+    max-width: 700px;
+    width: 100%;
+    margin: 4rem auto;
+    border: 1px solid orange;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
